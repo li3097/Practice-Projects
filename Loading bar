@@ -29,3 +29,34 @@
    height: 20px;
    border-radius: 10px;
 }
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Untitled 1</title>
+  <style type="text/css">
+    #progressbar {
+  background-color: black;
+  border-radius: 13px; /* (height of inner div) / 2 + padding */
+  padding: 3px;
+}
+
+#progressbar > div {
+   background-color: orange;
+   width: 40%; /* Adjust with JavaScript */
+   height: 20px;
+   border-radius: 10px;
+}
+  </style> 
+</head>
+
+<body>
+<div id="progressbar">
+  <div></div>
+</div>
+</body>
+
+</html>
