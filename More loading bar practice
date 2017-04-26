@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="en-us" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>More Progress Bar</title>
+<style type="text/css">
+.auto-style1 {
+	background: green;
+	width: 50%;
+	height: 20%;
+	text-align: center;
+  border-radius: 35px;
+}
+ #progressbar {
+  background-color: aqua;
+  border-radius: 12px; /*(height of inner div)/2 + padding */
+  padding: 3px;
+  }
+  
+  #progressbar > div {
+  background-color: black;
+  width: 20%;
+  height: 10px;
+  border-radius: 2px;
+  }
+  
+</style>
+</head>
+
+<body>
+
+<div class="auto-style1"> 
+	25%</div>
+  <div id="progressbar">
+    <div></div>
+  </div>
+
+</body>
+
+</html>
