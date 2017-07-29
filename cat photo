@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Cat Photo App</title>
+</head>
+
+<body>
+<h1 style="color:red"> Cats</h1>
+<p> Cats are a common household pet and have very soft fur. They have 4 paws and a moist nose. 
+Thier noses are generally pink. They're eye colors vary from blue to green to brown. </p>
+<p>They tend to make sounds like "meow", "hiss", and purr. Meowing is generally a sign of hello or wanting something.
+They usually want petted, food, or a clean litter box. They are generally low maintenance and all the
+owner has to do is clean the litter box, feed daily, and give them a bowl of water. Hissing is a 
+a sign of they want whatever around them to stop. Purring is the best sound as it lets others know
+that they are happy with whatever is going on. </p>
+<p> Cats love to play or pounce on little toys. They also like to chase things as well. 
+</p>
+<h1> Kittens</h1>
+<p> 
+<ul> Color
+<li> Orange</li>
+<li> Black</li>
+<li> White</li>
+<li> Brown</li>
+</ul>
+<ul>Breed
+<li>Calico</li>
+<li>Tabby</li>
+<li>Siamese</li>
+<li>Russian Blue</li>
+</ul>
+</p>
+</body>
+
+</html>
