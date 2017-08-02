@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="description">
+<title>Animated Text</title>
+<link rel="stylesheet" type="text/css" media="screen" href="styles.css"/>
+</head>
+
+<body>
+<h2 class="sentence">
+<span>Disclipline comes from</span>
+<div class="words">
+<span>commitment</span>
+<span>perserverance</span>
+<span>dedication</span>
+<span>training</span>
+<span>aspiration</span>
+<span>education</span>
+</div>
+</h2>
+
+</body>
+
+</html>
