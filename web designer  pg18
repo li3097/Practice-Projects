@@ -1,0 +1,40 @@
+var scene = {
+frames: 22,
+frameRate: 12,
+frameHeight: 205,
+spriteHeight: 4510,
+};
+// Transform
+var duration = scene.frames/scene.
+frameRate;
+var t1 = new TimelineMax({
+repeat: -1,
+});
+tl.staggerFromTo(
+',
+duration,
+{y: '0%'},
+{y: (scene.spriteHeight - scene.
+frameHeight)/scene.spriteHeight*-100 +'%',
+ease:SteppedEase.config(scene.frames -
+1)},
+duration
+);
+// Extract from step 4 code
+(scene.spriteHeight - scene.frameHeight)/
+scene.spriteHeight*-100 +'%'
+
+//onUpdate call added to Transform code:
+TimelineMax({
+repeat: -1,
+onUpdate: updateSlider
+});
+
+//updateSlider() function from Slider code:
+
+function updateSlider() {
+$('#slider').slider('value', t1.progess()
+*100);
+}
+updateSlider();
+
