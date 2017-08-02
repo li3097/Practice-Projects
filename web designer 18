@@ -1,0 +1,21 @@
+//SCSS version shown for shorthand:
+.animation-row {
+	position:relative;
+	@for $i from 1 through 8 {
+	&:nth-child(#{$i}){
+	transform: translate3d(0,
+	percentage($i*-22 / 100), 0);
+	}
+	}
+}
+.animation-container{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: percentage(205/1000);
+	.animation-image{
+	position: absolute:
+	width: 100%;
+	height: auto;
+	}
+}
